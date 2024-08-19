@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="_dgN-yq0T36B3Dh0hva7">
-    <mxGraphModel>
+    <mxGraphModel dx="1706" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1LErQit1cMqLqbrfsnFp-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Stonkinator&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;Gather Data&lt;/u&gt; (yfinance, TWS API +&amp;nbsp;IB-Insync)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Stock Pricing&amp;nbsp;&lt;/li&gt;&lt;li&gt;Options Data (weekly, monthly,)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Strike Prices/Dates&lt;/li&gt;&lt;li&gt;Greeks&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Financials&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;Process Data&lt;/u&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Charting&lt;/li&gt;&lt;li&gt;Support and Resistance&lt;/li&gt;&lt;li&gt;DCF projected prices&lt;/li&gt;&lt;li&gt;Calculate/Chart/Toggle between Greek Figures&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Neutral, Max, Min, Standard deviations&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Toggle Notifications for crossovers&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Trading&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Mean Reversion&lt;/li&gt;&lt;li&gt;Dynamic Collar&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Determine upper and lower bound; daily (based on options data)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Greek(s) Neutral, Volatility position generator&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;Backtest&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="480" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="1LErQit1cMqLqbrfsnFp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1LErQit1cMqLqbrfsnFp-1" target="1LErQit1cMqLqbrfsnFp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
